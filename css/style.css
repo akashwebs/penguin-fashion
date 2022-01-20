@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner-left>h1 {
+    font-weight: 600;
+}
+
+#banner-right img {
+    max-width: 85%;
+    height: auto;
+}
+
+header {
+    background: #FFFBF0;
+    margin-bottom: 10em;
+}
+
+
+/* single product */
+
+.product-continer {
+    border-radius: 20px;
+}
+
+.product-img {
+    height: 327px;
+    object-fit: cover;
+    background: #F1F1F1;
+    border-radius: 20px;
+}
+
+.product-img>img {
+    height: 293px;
+}
+
+@media (min-width: 768px) {
+    .woman-product {
+        max-width: 48.5%;
+    }
+}
