@@ -49,13 +49,19 @@ header {
 
 .cart-app {
     background: url(../images/shopping.png) no-repeat;
-    background-position: right;
+    background-position: center;
     background-size: 80%;
+    padding: 200px 0;
 }
 
 @media (min-width: 768px) {
     .woman-product {
         max-width: 48.5%;
-        padding: 200px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .cart-app {
+        padding: 140px 0;
     }
 }
