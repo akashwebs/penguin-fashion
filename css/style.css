@@ -4,6 +4,22 @@
     box-sizing: border-box;
 }
 
+
+/* common class */
+
+.section-heading {
+    color: #363958;
+    font-size: 48px;
+    line-height: 58px;
+    margin-top: 70px;
+    margin-bottom: .7em;
+}
+
+header {
+    background: #FFFBF0;
+    margin-bottom: 10em;
+}
+
 .banner-left>h1 {
     font-weight: 600;
 }
@@ -11,11 +27,6 @@
 #banner-right img {
     max-width: 85%;
     height: auto;
-}
-
-header {
-    background: #FFFBF0;
-    margin-bottom: 10em;
 }
 
 
@@ -36,8 +47,15 @@ header {
     height: 293px;
 }
 
+.cart-app {
+    background: url(../images/shopping.png) no-repeat;
+    background-position: right;
+    background-size: 80%;
+}
+
 @media (min-width: 768px) {
     .woman-product {
         max-width: 48.5%;
+        padding: 200px 0;
     }
 }
